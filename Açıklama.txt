@@ -1,0 +1,21 @@
+Arayüzün çalışması için aşağıdaki program ve sınıfların ortamda bulunması gerekmektedir.
+
+->Python version 3.6.4
+->Tensorflow version 1.14.0
+->Keras version 2.3.1
+Ekran kartıyla çalışılması için Nvidia marka ekran kartlarında aşağıdaki toolki kuurlu olmalıdır.
+(Nvidia Geforce 970 gtx için)
+->Cuda Toolkit 10.0
+->CuDNN 7.6.4
+
+
+Aşağıdaki sınıflar pip install ile powershell veya komut istemcisinden pythona import edilmeli
+	pip install tensorflow==1.14.0
+	pip install tensorflow-gpu==1.14.0
+	pip install keras==2.3.1
+	pip install os
+	pip install numpy
+	pip install matplotlib
+	pip install skimage
+	pip install PyQt5 
+->Arayüz çalıştırılırken arayüzün bulunduğu dizine gidilir powershell üzerinden (python Application.py) komutu ile çalıştırılır.
